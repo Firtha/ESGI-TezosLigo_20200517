@@ -1,7 +1,5 @@
 # Student Project : ESGI - Tezos (Ligo Smart contract)
 
-Will be included in this bigger project : https://github.com/Firtha/Tezos-Ligo_DevEnv.
-
 ## Features covered by the contract
 
 This contract is a hub for creating and interacting with votes.
@@ -27,7 +25,20 @@ Each user :
 - (yes < no ) : No
 - (yes = no ) : noMajority
 
-## Test instructions (ligo dry-run)
+## Ligo contract management
+
+Compile the contract :
+
+```shell
+ligo compile-contract Voting.ligo main
+```
+
+Deploy the contract :
+
+Refer to this project : https://github.com/Firtha/Tezos-Ligo_DevEnv.
+Currently the Truffle-Tezos deployment is not working but this provides a working Ubuntu18.04 environment for every commands like compile and dry-run.
+
+## Ligo dry-run context and execution
 
 Scenario : 2 different votes taking place simultaneously
 
