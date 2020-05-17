@@ -1,6 +1,8 @@
 # Student Project : ESGI - Tezos (Ligo Smart contract)
 
-## Features covered
+Will be included in this bigger project : https://github.com/Firtha/Tezos-Ligo_DevEnv.
+
+## Features covered by the contract
 
 This contract is a hub for creating and interacting with votes.
 
