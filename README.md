@@ -19,6 +19,12 @@ Each user :
 - Can not vote on his own created vote
 - Can vote once on any vote that they don't own
 
+3 possible outcomes :
+
+- (yes > no ) : Yes
+- (yes < no ) : No
+- (yes = no ) : noMajority
+
 ## Test instructions
 
 TODO : ligo dry-run commands for creating and taking vote
