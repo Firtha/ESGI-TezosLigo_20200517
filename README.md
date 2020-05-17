@@ -1,6 +1,8 @@
 # Student Project : ESGI - Tezos (Ligo Smart contract)
 
-## Features covered
+Will be included in this bigger project : https://github.com/Firtha/Tezos-Ligo_DevEnv.
+
+## Features covered by the contract
 
 This contract is a hub for creating and interacting with votes.
 
@@ -18,6 +20,12 @@ Each user :
 - Can create vote
 - Can not vote on his own created vote
 - Can vote once on any vote that they don't own
+
+3 possible outcomes :
+
+- (yes > no ) : Yes
+- (yes < no ) : No
+- (yes = no ) : noMajority
 
 ## Test instructions (ligo dry-run)
 
